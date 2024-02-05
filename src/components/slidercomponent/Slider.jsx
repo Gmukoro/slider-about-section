@@ -31,9 +31,9 @@ const Slider = ({ images }) => {
           <div className="image-container">
             <div className="image__img">
               <div>
-                <span className="dotted__design left" />
-                <span className="dotted__design left" />
-                <span className="dotted__design left" />
+                <span className="dotted__design1 right" />
+                <span className="dotted__design1 right" />
+                <span className="dotted__design1 right" />
               </div>
               <img src={imageUrl} alt={name} className="img1" />
               <div className="dotted__design right">

@@ -7,7 +7,8 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  margin-top: 10rem;
+  /* overflow: hidden; */
 }
 .app__slider {
   position: absolute;
@@ -62,10 +63,28 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle, #0c0c0c 4px, transparent 1px);
+  background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
   background-size: 10px 10px;
-  margin-top: 14.2rem;
-  margin-left: -1.3rem;
+  margin-top: 14.1rem;
+  margin-left: -1.36rem;
+}
+.dotted__design1 {
+  width: 50px;
+  height: 50px;
+  /* position: relative; */
+}
+.dotted__design1::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 4%;
+  height: 26%;
+  background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
+  background-size: 10px 10px;
+  margin-top: -5.2rem;
+  margin-left: 8.86rem;
 }
 
 .image-container {
@@ -95,4 +114,6 @@
   align-items: start;
   margin-top: 1rem;
   margin-left: 2rem;
+}
+@media screen and (max-width: ) {
 }
