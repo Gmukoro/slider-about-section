@@ -10,22 +10,22 @@ const App = () => {
       description: "Description of Image 1",
     },
     {
-      imageUrl: "image2.jpg",
+      imageUrl: "/src/assets/jordyn.png",
       name: "Image 2",
       description: "Description of Image 2",
     },
     {
-      imageUrl: "image2.jpg",
+      imageUrl: "/src/assets/martin.png",
       name: "Image 3",
       description: "Description of Image 2",
     },
     {
-      imageUrl: "image2.jpg",
+      imageUrl: "/src/assets/jordyn.png",
       name: "Image 4",
       description: "Description of Image 2",
     },
     {
-      imageUrl: "image2.jpg",
+      imageUrl: "/src/assets/martin.png",
       name: "Image 5",
       description: "Description of Image 2",
     },

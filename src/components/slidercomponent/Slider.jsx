@@ -29,7 +29,19 @@ const Slider = ({ images }) => {
             <button onClick={nextSlide}>Next</button>
           </div>
           <div className="image-container">
-            <img src={imageUrl} alt={name} />
+            <div className="image__img">
+              <div>
+                <span className="dotted__design left" />
+                <span className="dotted__design left" />
+                <span className="dotted__design left" />
+              </div>
+              <img src={imageUrl} alt={name} className="img1" />
+              <div className="dotted__design right">
+                <span className="dotted__design left" />
+                <span className="dotted__design left" />
+                <span className="dotted__design left" />
+              </div>
+            </div>
             <div className="image-details">
               <h4>Testimonial</h4>
               <h1>
