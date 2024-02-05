@@ -28,7 +28,7 @@ const Slider = ({ images }) => {
       <div className="app__slider">
         <div className="slider">
           <div className="btn">
-            <button onClick={prevSlide}>
+            <button onClick={prevSlide} className="btn__special">
               <img src={Previousimg} alt="Previous" className="left__btn" />
             </button>
             <button onClick={nextSlide}>
@@ -51,28 +51,18 @@ const Slider = ({ images }) => {
             </div>
             <div className="image-details">
               <h4>Testimonial</h4>
-              <h1>
+              <h2>
                 Reviews From Our Happy Clients<span></span>
-              </h1>
+              </h2>
               <p>{description}</p>
               <div className="name__div">
                 <h2>{name}</h2>
-                <div>
-                  <span className="name__starimg">
-                    <img src={Yellowstar} alt="yellowstar" />
-                  </span>
-                  <span className="name__starimg">
-                    <img src={Yellowstar} alt="yellowstar" />
-                  </span>
-                  <span className="name__starimg">
-                    <img src={Yellowstar} alt="yellowstar" />
-                  </span>
-                  <span className="name__starimg">
-                    <img src={Yellowstar} alt="yellowstar" />
-                  </span>
-                  <span className="name__starimg">
-                    <img src={Yellowstar} alt="yellowstar" />
-                  </span>
+                <div className="name__starimg">
+                  <img src={Yellowstar} alt="yellowstar" />
+                  <img src={Yellowstar} alt="yellowstar" />
+                  <img src={Yellowstar} alt="yellowstar" />
+                  <img src={Yellowstar} alt="yellowstar" />
+                  <img src={Yellowstar} alt="yellowstar" />
                 </div>
               </div>
             </div>

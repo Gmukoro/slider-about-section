@@ -6,28 +6,33 @@ const App = () => {
   const images = [
     {
       imageUrl: "/src/assets/jocelyn.png",
-      name: "Jocelyn",
-      description: "Description of Image 1",
+      name: "Jocelyn Oliver",
+      description:
+        "With decades of collaborative experience in real estate, finance and property management, our professionals bring a wealth of knowledge to streamline your property management needs",
     },
     {
       imageUrl: "/src/assets/jordyn.png",
       name: "Jordyn",
-      description: "Description of Image 2",
+      description:
+        "With decades of collaborative experience in real estate, finance and property management, our professionals bring a wealth of knowledge to streamline your property management needs",
     },
     {
       imageUrl: "/src/assets/martin.png",
       name: "Martin",
-      description: "Description of Image 2",
+      description:
+        "With decades of collaborative experience in real estate, finance and property management, our professionals bring a wealth of knowledge to streamline your property management needs",
     },
     {
       imageUrl: "/src/assets/jordyn.png",
       name: "Jordyn",
-      description: "Description of Image 2",
+      description:
+        "With decades of collaborative experience in real estate, finance and property management, our professionals bring a wealth of knowledge to streamline your property management needs",
     },
     {
       imageUrl: "/src/assets/martin.png",
       name: "Martin",
-      description: "Description of Image 2",
+      description:
+        "With decades of collaborative experience in real estate, finance and property management, our professionals bring a wealth of knowledge to streamline your property management needs",
     },
   ];
 
