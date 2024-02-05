@@ -6,27 +6,27 @@ const App = () => {
   const images = [
     {
       imageUrl: "/src/assets/jocelyn.png",
-      name: "Image 1",
+      name: "Jocelyn",
       description: "Description of Image 1",
     },
     {
       imageUrl: "/src/assets/jordyn.png",
-      name: "Image 2",
+      name: "Jordyn",
       description: "Description of Image 2",
     },
     {
       imageUrl: "/src/assets/martin.png",
-      name: "Image 3",
+      name: "Martin",
       description: "Description of Image 2",
     },
     {
       imageUrl: "/src/assets/jordyn.png",
-      name: "Image 4",
+      name: "Jordyn",
       description: "Description of Image 2",
     },
     {
       imageUrl: "/src/assets/martin.png",
-      name: "Image 5",
+      name: "Martin",
       description: "Description of Image 2",
     },
   ];

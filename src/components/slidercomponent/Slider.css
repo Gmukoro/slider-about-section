@@ -7,7 +7,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+
   /* overflow: hidden; */
 }
 .app__slider {
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 30%;
+  height: 20rem;
   background: black;
   border-radius: 10px;
   margin: auto;
@@ -30,25 +30,27 @@
 .btn {
   display: flex;
   flex-direction: row;
-  height: 3rem;
-  width: 14%;
-  bottom: 0;
+  height: 80px;
+  width: 172px;
   align-items: center;
-  margin-top: 8.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
 }
 
 .btn button {
-  background-color: wheat;
-  width: 3rem;
+  background-color: rgb(243, 245, 247);
+  width: 40px;
+  height: 40px;
+  margin: 0 6px;
+  padding: 4px;
+  border-radius: 20px;
 }
-
-.dotted__design {
-  /* display: block;
-  justify-content: flex-end;
-  align-items: first baseline;
-  height: 1px;
-  width: 20px;
-  color: blue; */
+.left__btn {
+  /* background-color: blue; */
+}
+.active {
+  background-color: rgb(41, 41, 240);
 }
 .dotted__design {
   width: 50px;
@@ -65,13 +67,12 @@
   height: 100%;
   background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
   background-size: 10px 10px;
-  margin-top: 14.1rem;
-  margin-left: -1.36rem;
+  margin-top: 21.59rem;
+  margin-left: -1.3rem;
 }
 .dotted__design1 {
   width: 50px;
   height: 50px;
-  /* position: relative; */
 }
 .dotted__design1::after {
   content: "";
@@ -80,10 +81,10 @@
   top: 0;
   left: 0;
   width: 4%;
-  height: 26%;
+  height: 16%;
   background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
   background-size: 10px 10px;
-  margin-top: -5.2rem;
+  margin-top: -4.68rem;
   margin-left: 8.86rem;
 }
 
@@ -94,26 +95,78 @@
 .image__img {
   display: flex;
   flex-direction: row;
-  height: 40rem;
+  /* height: 80rem; */
 }
 
 .img1 {
   z-index: 2;
   object-fit: cover;
-  height: 20rem;
-  width: 15rem;
+  height: 27rem;
+  width: 18rem;
   border-radius: 10px;
-  margin-top: -4rem;
+  margin-top: -3.5rem;
 }
 
 .image-details {
   display: flex;
   flex-direction: column;
-  height: 10rem;
-  justify-content: start;
-  align-items: start;
-  margin-top: 1rem;
-  margin-left: 2rem;
+  height: 16rem;
+  margin-top: 40px;
+  margin-left: 10px;
 }
-@media screen and (max-width: ) {
+.name__div {
+  display: flex;
+  flex-direction: row;
+}
+
+.name__starimg {
+  display: block;
+  flex-direction: column;
+  height: 10px;
+  width: 10px;
+}
+@media screen and (max-width: 1350px) {
+  .slider__motherb {
+    margin-bottom: 10rem;
+  }
+
+  .app__slider {
+  }
+
+  .dotted__design {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  .dotted__design::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
+    background-size: 10px 10px;
+    margin-top: 14.1rem;
+    margin-left: -1.36rem;
+  }
+  .dotted__design1 {
+    width: 50px;
+    height: 50px;
+    /* position: relative; */
+  }
+  .dotted__design1::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 4%;
+    height: 26%;
+    background-image: radial-gradient(circle, #2e2d2d 4px, transparent 1px);
+    background-size: 10px 10px;
+    margin-top: -5.2rem;
+    margin-left: 8.86rem;
+  }
 }
