@@ -3,6 +3,7 @@ import "./Slider.css";
 import Nextimg from "../../assets/next-img.png";
 import Previousimg from "../../assets/previous-img.png";
 import Yellowstar from "../../assets/yello-star.png";
+import Quotationimg from "../../assets/quotation-mark.png";
 
 const Slider = ({ images }) => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -39,20 +40,19 @@ const Slider = ({ images }) => {
             <div className="image__img">
               <div>
                 <span className="dotted__design1 right" />
-                <span className="dotted__design1 right" />
-                <span className="dotted__design1 right" />
               </div>
               <img src={imageUrl} alt={name} className="img1" />
               <div className="dotted__design right">
-                <span className="dotted__design left" />
-                <span className="dotted__design left" />
                 <span className="dotted__design left" />
               </div>
             </div>
             <div className="image-details">
               <h4>Testimonial</h4>
               <h2>
-                Reviews From Our Happy Clients<span></span>
+                Reviews From Our Happy Clients
+                <span className="quotation__mark">
+                  <img src={Quotationimg} alt="Quote" />
+                </span>
               </h2>
               <p>{description}</p>
               <div className="name__div">
